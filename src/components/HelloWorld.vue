@@ -4,12 +4,6 @@ import { useToast } from "primevue/usetoast";
 
 const toast = useToast();
 
-defineProps({
-  msg: {
-    type: String,
-    required: true
-  }
-})
 const increaseCount = () => {
   count.value++
 
